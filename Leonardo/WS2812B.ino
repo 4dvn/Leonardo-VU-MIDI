@@ -40,7 +40,7 @@ void setup() {
 }
 void loop() {
     MidiUSB.flush();
-    delay(1500);
+    delay(1500); // Delay for a period of time (in milliseconds).
     _LED.show(); // This sends the updated pixel color to the hardware.
-    delay(1); // Delay for a period of time (in milliseconds). 
+     
 }
